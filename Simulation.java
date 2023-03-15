@@ -11,7 +11,9 @@ public class Simulation {
 
         //moure habitants a les poblacións veïnes
 
-        //Calcular infectats
+        //Calcular infectats, actualitzar els seus estats i actualitzar els morts.
+
+        //dir dades dels infectats
 
     }
 
