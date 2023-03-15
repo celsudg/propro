@@ -1,28 +1,17 @@
 public class Simulation {
-
+    /*
+    La classe simulació és on hi ha implementades totes les interaccions que pot fer l'usuari amb la simulació i a on es controlen les accions que el sistema fa.
+     */
     public void nextTick(){
         /*crida a totes les funcions que fan accions a cada tick.
         moure habitants d'un lloc a l'altre, etc.
          */
-        for(i : totes_les_regions){
-            for(j : totes_les_regions){
-                if(i!=j){
-                    Region(i).inhabitantsReturnTo(j)
-                }
-            }
-        }
 
-        for(i : totes_les_regions){
-            for(j : totes_les_regions){
-                if(i!=j){
-                    Region(i).inhabitantsMoveTo(j)
-                }
-            }
-        }
+        //retornar habitants a la població
 
-        for(i : totes_les_regions){
-            i.CalculateInfected();
-        }
+        //moure habitants a les poblacións veïnes
+
+        //Calcular infectats
 
     }
 

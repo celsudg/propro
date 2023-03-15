@@ -10,6 +10,5 @@ public class Virus extends VirusFamily {
 
     public string virusFamily(){
         //retorna el nom de la familia de virus.
-        return this.virusFamilyName();
     }
 }
